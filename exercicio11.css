@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    width:86%;
+    height:800px;
+    margin: auto;
+    top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+ #cabecalho{
+    position: relative;
+    width: 100%;
+    height: 128px;
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    padding: 43px;
+
+    
+ }
+ #azul{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    font-size:35px;
+    background-color: rgb(0, 40, 182);
+    color:rgb(255, 255, 255)0
+ }
+
+ #beje{
+    position: relative;
+    width: 20%;
+    height:580px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(161, 168, 111);
+    color:rgb(255, 255, 255);
+    float: left;
+ }
+
+ #rosa{
+    position: relative;
+    width: 60%;
+    height:580px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(240, 174, 242);
+    color:rgb(255, 255, 255);
+    float: left;
+ }
+
+#rosac{
+   position: relative;
+    width: 20%;
+    height:580px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(255, 4, 192);
+    color:rgb(255, 255, 255);
+    float: left;
+}
+
+#branco{
+    position: relative;
+    width: 95%;
+    height: 33px;
+    font-size: 17px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 5px;
+}
+#marrom{
+    position: relative;
+    top: 9px;
+    width: 95%;
+    height: 180px;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(159, 117, 111);
+}
+
+#roxo{
+    position: relative;
+    top: 20px;
+    width: 95%;
+    height: 120px;
+    font-size: 14px;
+    text-align: justify;
+    margin: auto;
+    background-color: rgb(188, 154, 248);
+    color: black;
+}
+
+#cinza1{
+    position: relative;
+    text-align: center;
+    top: 32px;
+    width: 238px;
+    height: 150px;
+    left: 20px;
+    font-size: 35px;
+    background-color: rgb(83, 83, 83);
+    float: left;
+}
+
+#cinza2{
+    position: relative;
+    text-align: center;
+    top: 32px;
+    width: 238px;
+    height: 150px;
+    font-size: 35px;
+    left: 40px;
+    background-color: rgb(83, 83, 83);
+    float: left;
+}
+
+#cinza3{
+    position: relative;
+    text-align: center;
+    top: 32px;
+    width: 238px;
+    height: 150px;
+    font-size: 35px;
+    left: 60px;
+    background-color: rgb(83, 83, 83);
+    float: left;
+}
+
+#preto{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    clear: left;
+}
