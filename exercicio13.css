@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Verdana;
+    font-size: 40px;
+    background-image: url(../Imagens/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+
+main{
+    position: relative;
+    width: 95%;
+    height: auto;
+    font-size: 15px;
+    background-color: rgb(153, 73, 90);
+    margin: auto;
+
+}
+
+
+#barra-de-pesquisa1{
+    position: absolute;
+    width: 35%;
+    height: 35px;
+    font-size: 10px;
+    left: 750px;
+    top:130px;
+    background-color: rgb(250, 250, 250); 
+}
+#barra-de-pesquisa{
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#barra-de-pesquisa a{
+    width: 16.8%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 10px;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 190px;
+    background-color: rgb(119, 203, 24);
+}
+
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#vermelho{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    top: 15px;
+    background-color: rgb(175, 6, 6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#texto{
+    position: relative;
+    width: 43%;
+    height: 280px;
+    background-color: rgb(255, 155, 155);
+    top: -20px;
+    padding: 25px;
+}
+#titulo{
+    width: 100%;
+    height: 50px;
+}
+#texto h1{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#texto p{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#descricao{
+    width: 100%;
+    height: 90px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+#nossa-loja p{
+    padding:15px;
+    color: rgb(245, 245, 245);
+    font-size: 14px;
+}
+
+
+#loja{
+    position: relative;
+    width: 43%;
+    height: 265px;
+    background-color: rgb(215, 120, 120);
+    top: -20px;
+}
+#loja img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#vitrine{
+    position: relative;
+    width:100%;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    top: 30px;
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.violao{
+    position: relative;
+    width: 20%;
+    height:370px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:10px ;
+}
+
+.violao img{
+    width: 60%;
+    height: 55%;
+}
+
+.violao h1{
+    color: #000000;
+    font-size: 11px;
+}
+.violao p{
+    color: rgb(213, 0, 0);
+    font-size: 15px;
+}
+
+
+#localizacao{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    top: 45px;
+    background-color: rgb(195, 108, 1);
+    padding: 19px;
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mapa{
+    position: relative;
+    width: 43%;
+    height: 265px;
+    background-color: rgb(215, 120, 120);
+    top: -20px;
+}
+#mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#nossa-loja{
+    position: relative;
+    width: 43%;
+    height: 265px;
+    background-color: rgb(215, 120, 120);
+    top: -20px;
+}
+
+#vazio{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    top: 60px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#questionario{
+    position: relative;
+    width: 42%;
+    height: 280px;
+    top: -15px;
+    padding: 17px;
+}
+
+#formulario{
+ color: #000000;
+}
+
+#redes{
+    position: relative;
+    width: 42%;
+    height: 280px;
+    background-color: rgb(3, 233, 217);
+    color: #6902be;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icons{
+    position: relative;
+    background-color: #000000;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    top: 75px;
+}
+
+
+/*--------visualização mobile--------*/
+@media only screen and (max-width:480px){
+
+    main{
+        width: 98%;
+    }
+
+    #azul{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    #azul a{
+        width: 100%;
+
+    }
+
+    #verde, #choque, #marrom, #roxo{
+        display: none;
+    }
+
+    #caixa{
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixinha{
+        width: 100%;
+    }
+
+    #rosa{
+            width: 100%;
+        }
+
+}
+
+ /*--------visualização tablet--------*/
+
+@media only screen and (min-width:481px)/*avisa o tamanho que vamos usar de tela*/{
+    @media only screen and (max-width:720px){
+        main{     
+            width:95%;
+        }
+        
+        #azul{
+            height: 80px;
+            flex-wrap: wrap;
+        }
+
+        #azul a{
+           width: 33.33%;
+           color: #b5bb41;
+        }
+
+        #verde, #choque{
+            display: none; /*retira o componente*/
+        }
+
+        #rosa{
+            width: 100%;
+        }
+
+    }
+
+}
